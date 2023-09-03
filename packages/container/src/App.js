@@ -11,7 +11,7 @@ const generateClassname = createGenerateClassName({
 export default () => {
   return (
     <BrowserRouter>
-      <StylesProvider generateClassName={generateClassname}>
+      <StylesProvider createGenerateClassName={generateClassname}>
         <div>
           <Header></Header>
           <MarketingApp></MarketingApp>
